@@ -1,0 +1,31 @@
+% ======================================================================== %
+                                Instructions
+% ======================================================================== %
+First you must use "cd" and "dir" from CMD in admin mode to find the folder that
+you wish to upload. Once you are at the folder with the use of command line
+that you wish to upload, use the following commands to do what you wish.
+% ======================================================================== %
+            This is how you send something initially to git hub
+% ======================================================================== %
+git init
+git add README.md
+git add .
+git commit -m "Number of Commit"
+git branch -M master
+git remote add origin "git hub URL"
+git push -u origin master
+% ======================================================================== %
+            This is how we update a repository
+% ======================================================================== %
+git init
+git add .
+git commit -m "Number of Commit"
+git push origin master
+% ======================================================================== %
+            This is how we clone a repository
+% ======================================================================== %
+git clone "git hub URL"
+% ======================================================================== %
+            This is how you remove a git init
+% ======================================================================== %
+rmdir /s .git
